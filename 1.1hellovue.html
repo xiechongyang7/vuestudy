@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Hello Vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
 <div id="app">
-  {{ message }}
+    {{ message }}
 </div>
 </body>
-	<script>
-var app = new Vue(
-{
-el:'#app',
-data: {
-message:'Hello Vue'
-}
-}
-)
+<script>
+    var app = new Vue(
+        {
+            el: '#app',
+            data: {
+                message: 'Hello Vue'
+            }
+        }
+    )
 </script>
 </html>

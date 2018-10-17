@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算属性</title>
+    <style type="text/css">
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<!--计算属性和侦听器
+计算属性
+模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。
+如果你不希望有缓存，请用方法来替代
+-->
+<div id="app">
+    {{ message.split('').reverse().join('') }}
+    <p>Original message: "{{ message }}"</p>
+    <p>Computed reversed message: "{{ reversedMessage }}"</p>
+    <p>Computed reversed message: "{{ now }}"</p>
+</div>
+</body>
+<script>
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            message:"qwe"
+        },
+        methods:{
+
+        },
+        computed: {
+            // 计算属性的 getter
+            reversedMessage: function () {
+                // `this` 指向 vm 实例
+                return this.message.split('').reverse().join('')
+            },
+            now: function () {
+                return Date.now()
+            }
+        }
+
+    })
+</script>
+</html>

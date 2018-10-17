@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指令</title>
+    <style type="text/css">
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<!--指令 (Directives) 是带有 v- 前缀的特殊特性。指令特性的值预期是单个
+JavaScript 表达式 (v-for 是例外情况，稍后我们再讨论)。指令的职责是，当表达式的值改变时，
+将其产生的连带影响，响应式地作用于 DOM。回顾我们在介绍中看到的例子：
+-->
+<div id="app">
+    <p v-if="seen">现在你看到我了</p>
+    <a v-bind:href="url">...</a>
+    <button v-on:click="doSomething">dssdsd</button>
+</div>
+</body>
+    <script>
+        var vm = new Vue({
+            el:"#app",
+            data:{
+                url:"http://www.baidu.com",
+                seen: true
+            },
+            methods:{
+              doSomething: function () {
+                  console.log("hahah")
+              }
+            }
+        })
+    </script>
+</html>
