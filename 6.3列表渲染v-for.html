@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-for</title>
+    <style type="text/css">
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<!--用 v-for 把一个数组对应为一组元素
+我们用 v-for 指令根据一组数组的选项列表进行渲染。v-for 指令需要使用
+item in items 形式的特殊语法，items 是源数据数组并且 item 是数组元素迭代的别名。
+在 v-for 块中，我们拥有对父作用域属性的完全访问权限。v-for 还支持一个可选的第二个参数为当前项的索引。
+
+在遍历对象时，是按 Object.keys() 的结果遍历，但是不能保证它的结果在不同的 JavaScript 引擎下是一致的。
+-->
+<div id="app">
+    <ul id="example-1">
+        <li v-for="item in items">
+            {{ item.message }}
+        </li>
+    </ul>
+
+    <ul id="example-2">
+        <li v-for="(item, index) in items">
+            {{ parentMessage }} - {{ index }} - {{ item.message }}
+        </li>
+    </ul>
+
+    <div v-for="item of items">
+        {{ item.message }}
+    </div>
+
+    <ul id="v-for-object" class="demo">
+        <li v-for="value in object">
+            {{ value }}
+        </li>
+    </ul>
+    <div v-for="(value, key) in object">
+        {{ key }}: {{ value }}
+    </div>
+    <div v-for="(value, key, index) in object">
+        {{ index }}. {{ key }}: {{ value }}
+    </div>
+
+    <div v-for="item in items" :key="item.id">
+        {{ item.message }}
+    </div>
+
+    <!--
+    Vue 包含一组观察数组的变异方法，所以它们也将会触发视图更新。这些方法如下：
+push()
+pop()
+shift()
+unshift()
+splice()
+sort()
+reverse()
+-->
+    <!--显示过滤/排序结果-->
+    <!--有时，我们想要显示一个数组的过滤或排序副本，而不实际改变或重置原始数据。在这种情况下，可以创建返回过滤或排序数组的计算属性-->
+    <li v-for="n in evenNumbers">{{ n }}</li>
+
+    <!--一段取值范围的 v-for-->
+    <div>
+        <span v-for="n in 10">{{ n }} </span>
+    </div>
+    <!--v-for on a <template>-->
+    <ul>
+        <template v-for="item in items">
+            <li>{{ item.msg }}</li>
+            <li class="divider" role="presentation"></li>
+        </template>
+    </ul>
+    <!--v-for with v-if-->
+    <!--<li v-for="todo in todos" v-if="!todo.isComplete">-->
+        <!--{{ todo }}-->
+    <!--</li>-->
+
+    <!--<ul v-if="todos.length">-->
+        <!--<li v-for="todo in todos">-->
+            <!--{{ todo }}-->
+        <!--</li>-->
+    <!--</ul>-->
+    <!--<p v-else>No todos left!</p>-->
+
+    <!--一个组件的 v-for-->
+    <my-component v-for="item in items" :key="item.id">
+
+    </my-component>
+    <my-component
+            v-for="(item, index) in items"
+            v-bind:item="item"
+            v-bind:index="index"
+            v-bind:key="item.id"
+    ></my-component>
+
+</div>
+</body>
+<script>
+    Vue.component('my-component', {
+        template: '<p class="foo bar">ha</p>'
+    })
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            parentMessage: 'Parent',
+            items: [
+                { message: 'Foo' },
+                { message: 'Bar' }
+            ],
+            object: {
+                firstName: 'John',
+                lastName: 'Doe',
+                age: 30
+            },
+            numbers: [ 1, 2, 3, 4, 5 ]
+        },
+        methods:{
+            // example1.items = example1.items.filter(function (item) {
+            // return item.message.match(/Foo/)
+        // })
+        },
+        computed: {
+            evenNumbers: function () {
+                return this.numbers.filter(function (number) {
+                    return number % 2 === 0
+                })
+            }
+        }
+    })
+</script>
+</html>

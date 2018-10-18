@@ -2,23 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>数组语法</title>
     <style type="text/css">
     </style>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-<!--
+<!--数组语法
+我们可以把一个数组传给 v-bind:class，以应用一个 class 列表
 -->
 <div id="app">
-
+    <div v-bind:class="[activeClass, errorClass]"></div>
+    <div v-bind:class="[isActive ? activeClass : '', errorClass]"></div>
 </div>
 </body>
 <script>
     var vm = new Vue({
         el:"#app",
         data:{
-
+            activeClass: 'active',
+            errorClass: 'text-danger'
         },
         methods:{
 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>值绑定</title>
+    <style type="text/css">
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<!--值绑定
+对于单选按钮，复选框及选择框的选项，v-model 绑定的值通常是静态字符串 (对于复选框也可以是布尔值)：
+-->
+<div id="app">
+    <!-- 当选中时，`picked` 为字符串 "a" -->
+    <input type="radio" v-model="picked" value="a">
+
+    <!-- `toggle` 为 true 或 false -->
+    <input type="checkbox" v-model="toggle">
+
+    <!-- 当选中第一个选项时，`selected` 为字符串 "abc" -->
+    <select v-model="selected">
+        <option value="abc">ABC</option>
+    </select>
+    <!--复选框-->
+    <input
+            type="checkbox"
+            v-model="toggle"
+            true-value="yes"
+            false-value="no"
+    >
+    <!--单选按钮-->
+    <input type="radio" v-model="pick" v-bind:value="a">
+    <!--选择框的选项-->
+    <select v-model="selected">
+        <!-- 内联对象字面量 -->
+        <option v-bind:value="{ number: 123 }">123</option>
+    </select>
+</div>
+</body>
+<script>
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            picked:'a',
+            pick:'q',
+            a:'',
+            toggle:false,
+            selected:'abc',
+            number:''
+        },
+        methods:{
+
+        }
+    })
+</script>
+</html>

@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77a74d0-c61b-4c5b-8d6e-8b5156276c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.4处理用户输入.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.5组件化应用构建.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.1实例生命周期钩子.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.1数据与方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.1插值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.2指令.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.3修饰符&amp;缩写.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.1计算属性和侦听器-计算属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2计算属性 vs 侦听属性&amp;计算属性的 setter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.3侦听属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coyp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.1Class 与 Style 绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.2数组语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.3用在组件上.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.4绑定内联样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.5数组语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.1条件渲染v-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.2v-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.3列表渲染v-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.4一个组件的 v-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6.5事件处理v-on.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.1表单输入绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.2值绑定.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.1hellovue.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.1hellovue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.2指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.2指令.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.3条件与循环.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.3条件与循环.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.4条件与循环 - 副本.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coyp.html" beforeDir="false" afterPath="$PROJECT_DIR$/coyp.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,28 +49,32 @@
     <session id="1620347497">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="21" />
+          <entry key="html" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="21" />
+          <entry key="HTML" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="620" />
+          <entry key="html" value="1074" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="620" />
+          <entry key="HTML" value="1074" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -81,56 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.2指令.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.3修饰符&amp;缩写.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coyp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.1计算属性和侦听器-计算属性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.2计算属性 vs 侦听属性&amp;计算属性的 setter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4.3侦听属性.html">
+        <entry file="file://$PROJECT_DIR$/7.2值绑定.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+            <state relative-caret-position="850">
+              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -143,6 +100,16 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>my-component</find>
+      <find>newTodoText</find>
+      <find>selected</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,11 +131,23 @@
         <option value="$PROJECT_DIR$/3.2指令.html" />
         <option value="$PROJECT_DIR$/3.2修饰符.html" />
         <option value="$PROJECT_DIR$/3.3修饰符&amp;缩写.html" />
-        <option value="$PROJECT_DIR$/coyp.html" />
         <option value="$PROJECT_DIR$/4.1计算属性和侦听器-计算属性.html" />
         <option value="$PROJECT_DIR$/4.2计算属性 vs 侦听属性.html" />
         <option value="$PROJECT_DIR$/4.2计算属性 vs 侦听属性&amp;计算属性的 setter.html" />
         <option value="$PROJECT_DIR$/4.3侦听属性.html" />
+        <option value="$PROJECT_DIR$/5.1Class 与 Style 绑定.html" />
+        <option value="$PROJECT_DIR$/5.2数组语法.html" />
+        <option value="$PROJECT_DIR$/5.4绑定内联样式.html" />
+        <option value="$PROJECT_DIR$/5.5数组语法.html" />
+        <option value="$PROJECT_DIR$/6.1条件渲染.html" />
+        <option value="$PROJECT_DIR$/6.2v-show.html" />
+        <option value="$PROJECT_DIR$/5.3用在组件上.html" />
+        <option value="$PROJECT_DIR$/6.3列表渲染v-for.html" />
+        <option value="$PROJECT_DIR$/6.4一个组件的 v-for.html" />
+        <option value="$PROJECT_DIR$/6.5事件处理v-on.html" />
+        <option value="$PROJECT_DIR$/coyp.html" />
+        <option value="$PROJECT_DIR$/7.1表单输入绑定.html" />
+        <option value="$PROJECT_DIR$/7.2值绑定.html" />
       </list>
     </option>
   </component>
@@ -201,6 +180,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -223,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/seeseaweb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -256,16 +238,24 @@
       <option name="presentableId" value="Default" />
       <updated>1539756659422</updated>
       <workItem from="1539756660662" duration="612000" />
-      <workItem from="1539782365812" duration="6152000" />
+      <workItem from="1539782365812" duration="6715000" />
+      <workItem from="1539868987631" duration="7194000" />
     </task>
+    <task id="LOCAL-00001" summary="计算属性">
+      <created>1539788621166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539788621166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6764000" />
+    <option name="totallyTimeSpent" value="14521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1512118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,6 +281,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="计算属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="计算属性" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vue.html" />
@@ -343,31 +337,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.4处理用户输入.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.2指令.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="700">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.3修饰符&amp;缩写.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coyp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="925">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -387,8 +367,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4.3侦听属性.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.1Class 与 Style 绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.4处理用户输入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.5数组语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.4绑定内联样式.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
-          <caret line="61" column="68" lean-forward="true" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.2数组语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.1条件渲染v-if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.2v-show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.3用在组件上.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.4一个组件的 v-for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.3列表渲染v-for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coyp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.1表单输入绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.5事件处理v-on.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.2值绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
         </state>
       </provider>
     </entry>
